@@ -1,0 +1,124 @@
+h2 {
+    color:rgb(92, 12, 158);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-align: center
+}
+img {
+    height: 40%;
+    display: block;
+    margin: auto;
+}
+h3 {
+    padding: 3px;
+    border: 3px solid blueviolet;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    color: rgb(92, 12, 158);
+}
+body {
+    background-color: lavender;
+}
+nav {
+    margin-top: 20px;
+    box-shadow: 20px 0px gray;
+}
+ul {
+    list-style: none;
+    background-color: blueviolet;
+    box-shadow: 0px 2px 2px gray;
+    padding: 10px;
+    }
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: lavender;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li {
+    display: inline;
+    padding: 0px 10px;
+
+}
+header {
+    margin: auto;
+    padding: 50px;
+}
+.Contact_List li {
+    color: white;
+    text-emphasis: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.Contact_List {
+    width: 500px;
+    margin: 0px auto;
+}
+.background_image { 
+    background-image: url(Background\ Image);
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+/*Shadow-box inherited*/
+.grid_concert {
+    display: grid;
+    grid-template-columns: 1fr 2fr 5fr 1fr;
+    height: 300px;
+    gap: 0;
+}
+.grid_concert p {
+   grid-column: 3/4;
+    border: 3px solid blueviolet;
+    height: 100px;
+    margin: 0%;
+    color: rgb(92, 12, 158);
+    padding: 20px;
+}
+.grid_concert img {
+   grid-column: 2/3;
+    border: 3px solid ;
+    height: 300px;
+    margin: 0%;
+    
+}
+.concert_text {
+    display: flex;
+    justify-content: center;
+}
+.Project_Content {
+    display: flex;
+    flex-wrap: initial;
+    justify-content: center;
+}
+.Project_Content img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+.Projects_P {
+    color: blueviolet;
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif
+}
+.Project_Content p {
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 5px;
+    
+}
+.Project_Content h4 {
+    text-align: center;
+    color:rgb(92, 12, 158);
+   font-family: 'Times New Roman', Times, serif
+}
+.Project_Content div {
+    text-align: center;
+    margin: 3px;
+}
